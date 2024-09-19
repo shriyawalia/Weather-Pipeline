@@ -39,4 +39,12 @@ The project also includes a separate pytest script for testing and a `.bat` file
 3. Run the automated test: 
    ```bash
    pytest test_weather_pipeline.py
+4. Run the pipeline manually:
+   ```bash
+   python weather_pipeline.py
+5. Alternatively, you can run the pipeline using the Task Scheduler setup via the .bat file.
+6. **Upon successful execution, the script will:**
+   -Load data from the SeattleWeather table.
+   -Process the data and calculate monthly average temperatures.
+   -Save the results into a new table called "MonthlyAvgTemperature".
 
