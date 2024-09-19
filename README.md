@@ -72,5 +72,5 @@ After running the script, the following monthly average temperature data is stor
 ## Error Handling : 
 
 - The script uses a comprehensive logging system to record both successful operations and any exceptions encountered.
-- Logs are saved in a file called "weather_pipeline.log" located in the same directory as the script.
+- Logs are saved in a file called `weather_pipeline.log` located in the same directory as the script.
 - Errors are logged with full traceback information, and the pipeline continues processing without halting on minor issues (e.g., invalid data conversions).
