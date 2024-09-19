@@ -4,7 +4,7 @@ This project builds a Seattle weather data pipeline that extracts, transforms, a
 
 The project also includes a separate pytest script for testing and a `.bat` file to automate the pipeline using Windows Task Scheduler.
 
-## Features
+## Features :
 
 1. **Database Integration:**
    - Connects to SQL Server using SQLAlchemy to load weather data.
@@ -30,7 +30,7 @@ The project also includes a separate pytest script for testing and a `.bat` file
 6. **Task Scheduling:**
    - Uses a `.bat` file for automation with Windows Task Scheduler, allowing the pipeline to run periodically without manual intervention.
 
-## Usage
+## Usage : 
 
 1. Open the script `weather_pipeline.py` and adjust the following database parameters in the `main()` function:
    - **server**: Replace with your SQL Server name.
@@ -53,3 +53,19 @@ The project also includes a separate pytest script for testing and a `.bat` file
    - Process the data and calculate monthly average temperatures.
    - Save the results into a new table called "MonthlyAvgTemperature".
 
+## Example : 
+
+After running the script, the following monthly average temperature data is stored in SQL and can also be viewed in the console:
+
+| year | month | avg_temp_max | avg_temp_min |
+|------|-------|--------------|--------------|
+| 2012 | 1     | 45.34        | 36.78        |
+| 2012 | 2     | 47.52        | 38.62        |
+| 2012 | 3     | 52.61        | 41.95        |
+| ...  | ...   | ...          | ...          |
+
+## Error Handling : 
+
+- The script uses a comprehensive logging system to record both successful operations and any exceptions encountered.
+- Logs are saved in a file called "weather_pipeline.log" located in the same directory as the script.
+- Errors are logged with full traceback information, and the pipeline continues processing without halting on minor issues (e.g., invalid data conversions).
