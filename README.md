@@ -5,7 +5,7 @@
 ![pytest](https://img.shields.io/badge/pytest-8.3.2-yellow)
 ![Python](https://img.shields.io/badge/python-3.11.9-blue)
 
-This project builds a Seattle weather data pipeline that extracts, transforms, and loads weather data using SQL Server and Python. The pipeline extracts weather data from an SQL database, processes it, calculates monthly average temperatures, and updates the SQL tables. Logging is enabled to track the process and handle errors.
+This project builds a `Seattle weather data` pipeline that extracts, transforms, and loads weather data using SQL Server and Python. The pipeline extracts weather data from an SQL database, processes it, calculates monthly average temperatures, and updates the SQL tables. Logging is enabled to track the process and handle errors.
 
 The project also includes a separate pytest script for testing and a `.bat` file to automate the pipeline using Windows Task Scheduler.
 
@@ -56,7 +56,7 @@ The project also includes a separate pytest script for testing and a `.bat` file
 6. Upon successful execution, the script will:
    - Load data from the SeattleWeather table.
    - Process the data and calculate monthly average temperatures.
-   - Save the results into a new table called "MonthlyAvgTemperature".
+   - Save the results into a new table called `MonthlyAvgTemperature`.
 
 ## Example : 
 
