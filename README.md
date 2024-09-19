@@ -1,5 +1,5 @@
 # Weather-Pipeline
-![pandas](https://img.shields.io/badge/pandas-1.5.0-blue) 
+![pandas](https://img.shields.io/badge/pandas-1.6.0-blue) 
 ![numpy](https://img.shields.io/badge/numpy-1.21.0-green) 
 ![sqlalchemy](https://img.shields.io/badge/sqlalchemy-1.4.0-red)
 ![pytest](https://img.shields.io/badge/pytest-7.0.0-yellow)
