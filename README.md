@@ -1,4 +1,9 @@
 # Weather-Pipeline
+![pandas](https://img.shields.io/badge/pandas-1.5.0-blue) 
+![numpy](https://img.shields.io/badge/numpy-1.21.0-green) 
+![sqlalchemy](https://img.shields.io/badge/sqlalchemy-1.4.0-red)
+![pytest](https://img.shields.io/badge/pytest-7.0.0-yellow)
+![logging](https://img.shields.io/badge/logging-built--in-blue)
 
 This project builds a Seattle weather data pipeline that extracts, transforms, and loads weather data using SQL Server and Python. The pipeline extracts weather data from an SQL database, processes it, calculates monthly average temperatures, and updates the SQL tables. Logging is enabled to track the process and handle errors.
 
